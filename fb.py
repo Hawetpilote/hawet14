@@ -27,7 +27,7 @@ def ceknet():
     try:
     	os.system('reset')
         print internet
-        print '\r\033[37;1m[\x1b[92m+\033[37;1m] \033[37;1mMeriksa Koneksi Internet'
+        print '\r\033[37;1m[\x1b[92m+\033[37;1m] \033[37;1mConnecting to Internet...'
         time.sleep(2)
         toolbar_width = 25
         sys.stdout.write('[%s]' % ('-\033[37;1m' * toolbar_width))
