@@ -104,8 +104,8 @@ def start():
                     sys.exit()
 
         except IOError:
-            print '\033[37;1m[\033[32;1mx\033[37;1m] \033[37;1mAlamat wordlist tidak ada'
-            print '\033[37;1m[\033[32;1mx\033[37;1m] \033[37;1mSaya sarankan Untuk Membuatnya sendiri'
+            print '\033[37;1m[\033[32;1mx\033[37;1m] \033[37;1mWordlist path is incorrect'
+            print '\033[37;1m[\033[32;1mx\033[37;1m] \033[37;1mTry again later'
             sys.exit()
 
 ceknet()
