@@ -40,7 +40,7 @@ def ceknet():
             sys.stdout.flush()
             time.sleep(5.0 / 100)
         try:
-            rq = requests.get('http://facebook.com')
+            rq = requests.get('https://www.beta.facebook.com')
             time.sleep(3.5)
             print '\033[37;1m] \033[35;1m~> \033[32;1mSucces '
             time.sleep(2.0)
@@ -88,7 +88,7 @@ def start():
                         print '\033[32;1m[=] \033[37;1mProgram Finish'
                         sys.exit()
                     else:
-                        if 'www.facebook.com' in mpsh['error_msg']:
+                        if 'www.beta.facebook.com' in mpsh['error_msg']:
                             ceks = open('succesCP.txt', 'w')
                             ceks.write('[ID]=> ' + email + '\n')
                             ceks.write('[PW]=> ' + pw)
